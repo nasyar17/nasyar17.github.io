@@ -35,7 +35,7 @@ var myFullpage = new fullpage("#fullpage", {
    scrollOverflow: false,
    scrollOverflowReset: false,
    scrollOverflowOptions: null,
-   touchSensitivity: 15,
+   touchSensitivity: 5,
    bigSectionsDestination: null,
 
    //Accessibility
