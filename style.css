@@ -1,20 +1,89 @@
 body {
    font-family: 'Poppins', sans-serif;
+   /* font-size: 24px; */
 }
 
-#header-1 {
-   font-weight: 800;
+.header {
+   font-family: 'Teko', 'sans-serif';
+   font-weight: 700;
+   font-size: 8vw;
 }
 
-.header-2 {
-   font-weight: 600;
+.hero-text {
+   font-size: 10vw;
+}
+
+.hero-desc {
+   font-family: 'Poppins', 'sans-serif';
+   font-weight: 500;
+   font-size: 140%;
+}
+
+.text-desc {
+   font-size: 115%
 }
 
 .section-1 {
-   background: white;
+   background: linear-gradient(22deg, rgba(204, 107, 9, 1) 0%, rgba(255, 189, 53, 1) 47%, rgba(255, 232, 0, 1) 100%);
 }
 
 .section-2 {
-   background-color: #FF3CAC;
-   background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+   background: #4CA1AF;
+   /* fallback for old browsers */
+   background: -webkit-linear-gradient(22deg, #4CA1AF, #C4E0E5);
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(22deg, #4CA1AF, #C4E0E5);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   color: #000;
+}
+
+.section-3 {
+   /* background: linear-gradient(22deg, rgba(18, 13, 97, 1) 0%, rgba(25, 121, 167, 1) 47%, rgba(37, 159, 184, 1) 100%); */
+   background: linear-gradient(22deg, rgba(219, 219, 219, 1) 0%, rgba(255, 255, 255, 1) 62%);
+}
+
+.section-4 {
+   background: rgb(0, 0, 0);
+   background: linear-gradient(22deg, rgba(0, 0, 0, 1) 0%, rgba(23, 23, 23, 1) 47%, rgba(47, 47, 47, 1) 100%);
+
+}
+
+.gambar {
+   max-height: 80vh;
+}
+
+
+
+/* .carousel-inner>.carousel-item>img {
+   height: 100%;
+   max-height: 1vw;
+} */
+
+.carousel {
+   /* max-height: 80vh !important; */
+   max-height: 90vh !important;
+   /* height: 500px !important; */
+   width: 95vw !important;
+}
+
+.carousel-item {
+   /* max-height: 80vh !important; */
+   max-height: 90vh !important;
+   height: 100vw !important;
+}
+
+.carousel-inner img {
+   height: 100%;
+}
+
+@media (min-width: 992px) {
+   /* .carousel {
+      max-height: 80vh !important;
+      max-width: 60vh !important;
+   }
+
+   .carousel-inner img {
+      height: 100%;
+   } */
 }
