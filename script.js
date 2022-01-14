@@ -5,10 +5,10 @@ var myFullpage = new fullpage("#fullpage", {
 
    navigation: true,
    navigationPosition: "right",
-   navigationTooltips: ["Intro", "Minat"],
+   // navigationTooltips: ["Intro", "Minat"],
    showActiveTooltip: true,
    slidesNavigation: true,
-   slidesNavPosition: "bottom",
+   slidesNavPosition: "top",
 
    //Scrolling
    css3: true,
@@ -26,7 +26,8 @@ var myFullpage = new fullpage("#fullpage", {
    continuousHorizontal: true,
    scrollHorizontally: true,
    interlockedSlides: false,
-   dragAndMove: false,
+   dragAndMove: true,
+   dragAndMoveKey: 'YWx2YXJvdHJpZ28uY29tX0EyMlpISmhaMEZ1WkUxdmRtVT0wWUc=',
    offsetSections: false,
    resetSliders: false,
    fadingEffect: false,
@@ -92,3 +93,10 @@ var myFullpage = new fullpage("#fullpage", {
    afterSlideLoad: function (section, origin, destination, direction) {},
    onSlideLeave: function (section, origin, destination, direction) {},
 });
+
+lightbox.option({
+   'resizeDuration': 200,
+   'wrapAround': true,
+   'alwaysShowNavOnTouchDevices': true,
+   'fadeDuration': 400
+})
