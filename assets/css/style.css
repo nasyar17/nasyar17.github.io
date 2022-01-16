@@ -1,6 +1,38 @@
 body {
    font-family: 'Poppins', sans-serif;
-   /* font-size: 24px; */
+}
+
+/* SECTION COLOR */
+.section-bio {
+   background-color: #fec401;
+}
+
+.section-interest {
+   background-color: #e91f2c;
+}
+
+.section-minimalist {
+   background-color: #1f307c;
+}
+
+.section-portrait {
+   background-color: #facd06;
+}
+
+.section-logo {
+   background-color: #991f62;
+}
+
+.section-seamless {
+   background-color: #aaff22;
+}
+
+.section-coding {
+   background-color: #6745c5;
+}
+
+.section-contact {
+   background-color: #00AAEE;
 }
 
 .header {
@@ -31,30 +63,6 @@ body {
 
 .text-mini {
    font-size: 90%;
-}
-
-.section-1 {
-   background-color: #fec401;
-}
-
-.section-2 {
-   background-color: #e91f2c;
-   /* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
-}
-
-.section-3 {
-   /* background: linear-gradient(22deg, rgba(18, 13, 97, 1) 0%, rgba(25, 121, 167, 1) 47%, rgba(37, 159, 184, 1) 100%); */
-   background-color: #D91D81;
-}
-
-.section-4 {
-   /* background: linear-gradient(0deg, rgba(255, 134, 0, 1) 0%, rgba(255, 190, 0, 1) 100%); */
-   background-color: #D91D81;
-   background-color: #735cb0;
-}
-
-.section-5 {
-   background-color: #00AAEE;
 }
 
 .gambar {
@@ -180,4 +188,22 @@ body {
 .box {
    background-color: #fff;
    padding: 20px 20px;
+}
+
+.img-slider {
+   height: auto;
+   width: 60vh;
+}
+
+.square {
+   max-height: 60vh;
+}
+
+.text-link {
+   color: #3f27c7;
+   font-weight: 600;
+}
+
+.text-link:hover {
+   color: #2c1d81;
 }
