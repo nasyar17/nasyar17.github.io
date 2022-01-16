@@ -8,7 +8,7 @@ var myFullpage = new fullpage("#fullpage", {
    // navigationTooltips: ["Intro", "Minat"],
    showActiveTooltip: true,
    slidesNavigation: true,
-   slidesNavPosition: "top",
+   slidesNavPosition: "bottom",
 
    //Scrolling
    css3: true,
@@ -27,7 +27,7 @@ var myFullpage = new fullpage("#fullpage", {
    scrollOverflow: false,
    scrollOverflowReset: false,
    scrollOverflowOptions: null,
-   touchSensitivity: 5,
+   touchSensitivity: 1,
    bigSectionsDestination: null,
 
    //Accessibility
@@ -44,7 +44,7 @@ var myFullpage = new fullpage("#fullpage", {
    fixedElements: "#header, .footer",
    responsiveWidth: 0,
    responsiveHeight: 0,
-   responsiveSlides: false,
+   responsiveSlides: true,
 
    //Custom selectors
    sectionSelector: ".section",
