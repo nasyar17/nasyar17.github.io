@@ -3,8 +3,12 @@ body {
 }
 
 /* SECTION COLOR */
+.section-test {
+   background-color: lightblue;
+}
+
 .section-bio {
-   background-color: #fec401;
+   background-color: #ffda06;
 }
 
 .section-interest {
@@ -16,7 +20,11 @@ body {
 }
 
 .section-portrait {
-   background-color: #facd06;
+   background-color: #ffea2b;
+}
+
+.section-banner-fashion {
+   background-color: #135353;
 }
 
 .section-logo {
@@ -24,7 +32,7 @@ body {
 }
 
 .section-seamless {
-   background-color: #aaff22;
+   background-color: #ece037;
 }
 
 .section-coding {
@@ -197,6 +205,16 @@ body {
 
 .square {
    max-height: 60vh;
+}
+
+img.img-sm {
+   max-height: 25vh;
+}
+
+@media (min-width: 768px) {
+   img.img-sm {
+      max-height: 60vh;
+   }
 }
 
 .text-link {
